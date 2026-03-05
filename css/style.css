@@ -1,0 +1,88 @@
+/* IMPOSTAZIONI GENERALI */
+header {
+  text-align: center;
+  align-items: center;
+}
+
+body {
+  margin: 0;
+  background-image: url(../assets/sfondo.png);
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+main{
+  align-items: center;
+  border: 2vw;
+}
+.topbox ul {
+  list-style: none;
+  padding: 0;
+  margin: 15px 0 0 0;
+}
+.topbox h2,
+.topbox a {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+.topbox li {
+  margin: 6px 0;
+}
+h2,
+a {
+  font-size: 2rem;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.topbox, .centerbox, .bottombox {
+  width: 90%;
+  max-width: 420px;
+  margin: 20px auto;
+}
+.topbox,
+.centerbox,
+.bottombox {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+}
+.topbox li a::before {
+  content: "⇒ ";
+}
+p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin: 1em 0;
+}
+
+.autorbox p {
+  font-size: 0.9em;
+  color: rgb(100, 100, 107);
+}
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+}
+h4 {
+}
+.centerbox a {
+  color: #0077cc;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+span {
+}
+caption {
+  font-size: 1em;
+}
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+ul, ol {
+  font-size: 1em;
+}
