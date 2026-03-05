@@ -1,7 +1,8 @@
-/* IMPOSTAZIONI GENERALI */
+
 header {
   text-align: center;
   align-items: center;
+  padding: 1em;
 }
 
 body {
@@ -10,10 +11,11 @@ body {
   background-size: cover;
   background-position: center;
   font-family: "Poppins", sans-serif;
+  background-color: white;
 }
 main{
   align-items: center;
-  border: 2vw;
+  border: 2vw,
 }
 .topbox ul {
   list-style: none;
@@ -46,7 +48,9 @@ a {
 .topbox,
 .centerbox,
 .bottombox {
-  box-shadow: 0 6px 18px rgba(0,0,0,0.25);
+  box-shadow: 3px 9px 18px rgba(0,0,0,0.25);
+  padding: 4%;
+  
 }
 .topbox li a::before {
   content: "⇒ ";
@@ -65,16 +69,12 @@ h1 {
   font-size: 3em;
   font-weight: bold;
 }
-h4 {
-}
 .centerbox a {
-  color: #0077cc;
+  color:#007788;
   text-decoration: underline;
   font-weight: bold;
 }
 
-span {
-}
 caption {
   font-size: 1em;
 }
@@ -85,4 +85,63 @@ caption {
 }
 ul, ol {
   font-size: 1em;
+}
+.topbox{
+  background-color: #0088AA;
+}
+.centerbox{
+  background-color: white;
+}
+.bottombox{
+  background-color: white;
+}
+
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+
+caption {
+  font-style: italic;
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+
+thead {
+  background-color: #3f6edb;
+  color: white;
+}
+
+th {
+  padding: 15px;
+  font-size: 1.2em;
+}
+
+
+td {
+  padding: 15px;
+  text-align: center;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+
+tbody tr:last-child td {
+  border-bottom: 4px solid #3f6edb;
+}
+
+#media{
+  padding: 10%;
+  width: 100%;
+  height: 100%
+  
+
 }
